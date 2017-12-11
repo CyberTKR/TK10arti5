@@ -6,30 +6,30 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
 cl = CYBERTK.LINE()
-cl.login(token="EnB0CiZe7xeZAe9q4tX9.NwSz4y2p8Bt7IRdRvpLu2q.zgKCGcaWpes2I/LRYYOo+fcfctJMNRrcwr+815hzLJQ=")
+cl.login(token="EnB0CiZe7xeZAe9q4tX9.yNwSz4y2p8Bt7IRdRvpLu2q.zgKCGcaWpes2I/LRYYOo+fcfctJMNRrcwr+815hzLJQ=")
 cl.loginResult()
 
 ki = CYBERTK.LINE()
-ki.login(token="EnMx1csVl4qKprMcz474.qRZv+8nsEnVqjMsvKxItTa.B8q1a6A6i+CK31x9mMDbQBRlcItyO3KcPjapA09thcY=")
+ki.login(token="EnMx1csVl4qKprMcz474.qRZv+8unsEnVqjMsvKxItTa.B8q1a6A6i+CK31x9mMDbQBRlcItyO3KcPjapA09thcY=")
 ki.loginResult()
 
 ki2 = CYBERTK.LINE()
-ki2.login(token="EnNend1TCYrBxUrjBNwb.gvqnZMjCnNInXZa3tYerQW.C1xhfs1F8Z1dZ8uAD+KlZcxXwNqtgcKq5U3kRCLrfFM=")
+ki2.login(token="EnNend1TCYrBxUrjBNwb.gvqnZMjyCnNInXZa3tYerQW.C1xhfs1F8Z1dZ8uAD+KlZcxXwNqtgcKq5U3kRCLrfFM=")
 ki2.loginResult()
 
 ki3 = CYBERTK.LINE()
-ki3.login(token="Enj0OZSaz2n3NTFfIYp4.uck0I7Fy5n2IlrjFkHbkba.XejXddWJ9Y17U8CrCXLHb/ROVBZ2Iek0ukTk+jDbcmg=")
+ki3.login(token="Enj0OZSaz2n3NTFfIYp4.uck0I7Fyt5n2IylrjFkHbkba.XejXddWJ9Y17U8CrCXLHb/ROVBZ2Iek0ukTk+jDbcmg=")
 ki3.loginResult()
 
 ki4 = CYBERTK.LINE()
-ki4.login(token="EnPKAdnRpYGUHoYi5LHc.10yH/7q285GtOJnRvXfD3a.GWTJIczqLYKz1Zw9a1aHSVuZuu8QF1VnwE21hIEJqJY=")
+ki4.login(token="EnPKAdnRpYGUHoYi5LHc.10yH/7q285yGtOJnRyvXfD3a.GWTJIczqLYKz1Zw9a1aHSVuZuu8QF1VnwE21hIEJqJY=")
 ki4.loginResult()
 
 ki5 = CYBERTK.LINE()
-ki5.login(token="EnSQRksronMx3TrOQrD8.+WzM3+ORELINB/i2uHoCca.jUcgVYI0rJCcnVdtRP0XKmmclK9bUxke5DVR+A7SQeY=")
+ki5.login(token="EnSQRksronMx3TrOQrD8.+WzM3+ORELyINB/i2uHoCca.jUcgVYI0rJCcnVdtRP0XKmmclK9bUxke5DVR+A7SQeY=")
 ki5.loginResult()
 
-print u"login success"
+print u"Login Success CYBERTK"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
