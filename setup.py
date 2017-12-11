@@ -21,7 +21,7 @@ setup(
         description='May Waifu be with you...',
         license='BSD License',
         author='Tolga',
-        author_email='Tolgajames2@gmail.com',
+        author_email='Cybertk7@gmail.com',
         url='canseethefuture.org',
         keywords=['CYBERTK'],
         classifiers=[
