@@ -9,25 +9,7 @@ cl = CYBERTK.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = CYBERTK.LINE()
-ki.login(qr=True)
-ki.loginResult()
-
-ki2 = CYBERTK.LINE()
-ki2.login(qr=True)
-ki2.loginResult()
-
-ki3 = CYBERTK.LINE()
-ki3.login(qr=True)
-ki3.loginResult()
-
-ki4 = CYBERTK.LINE()
-ki4.login(qr=True)
-ki4.loginResult()
-
-ki5 = CYBERTK.LINE()
-ki5.login(qr=True)
-ki5.loginResult()
+ki = ki2 = ki3 = ki4 = ki5 = cl 
 
 print u"Login Success CyberTK"
 reload(sys)
@@ -103,8 +85,8 @@ ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
 Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid]
-admsa = 'u6a66b6b389d27052f7c8ac0bdc2cee7e'
-admin = 'u6a66b6b389d27052f7c8ac0bdc2cee7e'
+admsa = 'u21ed4cdec3ca9e0719f29f5f33a5e41d'
+admin = 'u21ed4cdec3ca9e0719f29f5f33a5e41d'
 
 wait = {
     'contact':False,
