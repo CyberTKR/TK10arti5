@@ -462,10 +462,10 @@ class LINE:
       prof = self.getProfile()
 
       print("\n[Ȼyber | τK  в̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠σ̊̑̾͘т\n")
-      print("mid -> " + prof.mid)
-      print("Nama -> " + prof.displayName)
+      print("Mid -> " + prof.mid)
+      print("Name -> " + prof.displayName)
       print("Token -> " + self.authToken)
-      print("cert -> " + self.cert if self.cert is not None else "")
+      print("Certifica -> " + self.cert if self.cert is not None else "")
 
 
 
