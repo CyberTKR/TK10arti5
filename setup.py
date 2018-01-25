@@ -1,7 +1,7 @@
 from __future__ import with_statement
 import re
 ##
-# Setup.py Koplaxs ??
+# Setup.py CYBERTK ??
 # DON'T EDIT ??
 # Thanks ??
 ##
