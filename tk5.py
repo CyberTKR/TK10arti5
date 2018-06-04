@@ -2498,7 +2498,7 @@ def bot(op):
 #-----------------------------------------------
 
 #-----------------------------------------------
-            elif msg.text.lower() == ["All join"]:
+            elif msg.text.lower() == ["tk join"]:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
