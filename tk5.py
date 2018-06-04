@@ -1016,7 +1016,7 @@ def bot(op):
                         num =  int(strnum)
                         wait["autoCancel"]["on"] = True
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,strnum + "Kelompok berikut yang diundang akan ditolak secara otomatis👈")
+                            cl.sendText(msg.to,strnum + "Kelompok berikut yang diundang akan ditolak secara otomatis��")
                         else:
                             cl.sendText(msg.to,strnum + "The team declined to create the following automatic invitation")
                 except:
@@ -2524,7 +2524,7 @@ def bot(op):
                         random.choice(KAC).updateGroup(G)
                        
 #-----------------------------------------------
-            elif msg.text in ["All join"]:
+            elif msg.text in ["TK join"]:
                 if msg.from_ in admsa:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
